@@ -6,12 +6,14 @@
     <link href="./main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Vilken färg ska jag välja?</h1>
+    <h1>Svårt att välja?</h1>
+    <h2>Vi hjälper dig. Skriv ett alternativ i rutan nedan!</h2>
+    <h2>Addera sedan så många du behöver och tryck "Go!"</h2>
     <div class="inputSection">
       <div class="inputs">
-        <input placeholder="Something"></input>
+        <input placeholder="Alternativ 1"></input>
       </div>
-      <button class="addOption">Add</button>
+      <button class="addOption">Addera fler alternativ!</button>
     </div>
     <div class="resultSection"></div>
     <button class="submit">Go!</button>
@@ -36,7 +38,7 @@
         })
         var winner = options[Math.floor(Math.random() * options.length)]
         console.log(winner)
-        $('.resultSection').text(winner)
+        $('.resultSection').text("Rätt val är: "+winner)
       }
       $('.submit').click(submit)
     })
