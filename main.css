@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-weight: lighter;
+  font-weight: bolder;
   color: #23a393;
   font-size: 40px;
   font-family: "Arial", sans-serif;
@@ -84,6 +84,6 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 45px;
   font-family: "Arial", sans-serif;
 }
