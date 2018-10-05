@@ -4,12 +4,14 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  background-color: ccf0c3;
 }
 
 h1 {
   font-weight: lighter;
   color: red;
   font-size: 40px;
+  font-family: sans-serif;
   letter-spacing: 2px;
   margin-bottom: 0px;
 }
@@ -17,6 +19,7 @@ h1 {
 h2 {
   font-weight: lighter;
   margin-bottom: 0px;
+  font-family: sans-serif;
 }
 
 .inputSection {
